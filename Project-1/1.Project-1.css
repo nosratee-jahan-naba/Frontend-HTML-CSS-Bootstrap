@@ -1,0 +1,204 @@
+body
+{
+    background-color: rgb(240, 221, 224);   /*sets the page background*/
+    /* Resetting margin and padding (margin: 0; padding: 0;) removes browser defaults
+     so your layout looks the same in every browser. */
+    margin:none;
+    padding: none;
+}
+
+/* No class is needed if you’re styling the element itself directly!
+   Only one <nav> on the page, so no class needed—just use nav { ... }
+ */
+nav
+{
+    display: flex;                            /* put nav items (like links) in a row ,so Links appear side by side*/
+    justify-content: space-around;            /* Equal space between and around each link. */
+    align-items: center;                      /* All links are vertically centered inside the nav bar. */
+    background-color: rgb(188, 183, 187);   /* to see the nav area */
+    padding:10px;
+}
+
+.logo
+{
+    width: 80px;
+}
+
+li
+{
+   list-style: none;  /*You remove the bullets with list-style: none;*/
+   font-size: 20px ;  /*so the menu items are spaced nicely.*/
+   font-style: bold;
+}
+
+/* .menu-container a flex container, 
+which lines up its children (the <li> items) in a row. */
+.menu-container
+{
+    display: flex;
+    gap:20px;
+}
+
+/* li:hover --> means when you put your mouse over a list item (<li>).
+               changes color and cursor on hover to show the item is clickable. */
+li:hover
+{
+    color:rgb(241, 17, 88);
+    cursor: pointer;
+}
+
+
+/* Banner-Part */
+.banner-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin:auto;
+    gap:50px;
+    /* background-image: url('images/2b1a0cacf486bbf32c835b273868d7e4.jpg'); */
+    /* color:rgb(5, 0, 1); */
+}
+
+.banner-img
+{
+    width: 400px;
+    line-height: 2;
+
+}
+
+ .banner-left
+{
+    width: 50%;
+    margin:auto;
+}
+/*
+.banner-right
+{
+    width: 50%;
+    margin:auto;
+}
+ */
+
+.btn
+{
+    padding: 15px 25px;
+    border: none;
+    color: beige;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.hire-btn
+{
+    background-color: black;
+    
+}
+
+.project-btn
+{
+    background-color: rgb(244, 39, 97);
+}
+
+.title
+{
+    font-size: 50px;;
+}
+
+/* service-3 */
+.service-container
+{
+    margin-top: 30px;
+}
+
+.service-title
+{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.service-card
+{
+    width: 300px;
+    height:400px;
+    margin-left: 20px;
+    border:1px solid grey;
+    box-shadow: 4px 4px 8px grey;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin: 50px;
+}
+.service-img
+{
+    width:250px;
+}
+.service-card-btn
+{
+    padding:10px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(158, 154, 155);
+    border-radius: 10px;
+}
+
+.service-description
+{
+    margin: 10px;
+    padding: 10px 10px;
+    
+}
+
+.services
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: center;
+}
+
+.service-img-sd
+{
+    height: 150px;
+}
+
+a
+{
+    text-decoration: none;
+    color: beige;
+}
+
+/* contact */
+.contact-me
+{
+    padding: 50px;
+    width:500px;
+    margin: auto;
+    box-shadow: 4px 4px 8px grey;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message
+{
+    width:40px;
+    height: 100px;
+    margin-top: 15px;
+}
+.input-box
+{
+    padding: 15px;
+}
+
+.submit-box
+{
+    padding: 15px;
+    width: 25%;
+    background-color: rgb(226, 56, 70);
+    color: beige;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,56 @@
+/* Block-Level Elements:
+
+By default, they: 
+.title1
+{
+    display: block;
+}
+    Always start on a new line.
+Occupy the full width of the container.
+Stacks vertically, one after another.
+Examples: <div>, <p>, <h1>–<h6>, <ul>, <ol>, <li>, <table>.
+Used to structure and separate content on a webpage. */
+
+/* Inline Elements:
+
+Stay in the same line as other content.
+Only take up as much space as needed.
+Examples: <button>, <a>, <strong>.
+Used to style part of a line (like words inside a sentence).
+ */
+
+
+/* Block-Level Elements:*/
+.title1
+{
+    display: inline;
+}
+.title2
+{
+    display: inline;
+}
+.title3
+{
+    display: block;
+}
+.title4
+{
+    display: none;    /* hide*/
+}
+.title5
+{
+    display: inline;
+}
+
+
+/* hex & rgba code of colors*/
+.description
+{
+    color: rgb(255,0,0,1);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    margin: auto;   /*center*/
+}

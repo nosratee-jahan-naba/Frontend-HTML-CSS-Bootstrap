@@ -1,0 +1,48 @@
+body
+{
+    background-color: rgb(240, 221, 224);   /*sets the page background*/
+    /* Resetting margin and padding (margin: 0; padding: 0;) removes browser defaults
+     so your layout looks the same in every browser. */
+    margin:0px;
+    padding: 0px;
+
+}
+
+/* No class is needed if you’re styling the element itself directly!
+   Only one <nav> on the page, so no class needed—just use nav { ... }
+ */
+nav
+{
+    display: flex;                            /* put nav items (like links) in a row ,so Links appear side by side*/
+    justify-content: space-around;            /* Equal space between and around each link. */
+    align-items: center;                      /* All links are vertically centered inside the nav bar. */
+    background-color: rgb(188, 183, 187);   /* to see the nav area */
+    padding:10px;
+}
+
+.logo
+{
+    width: 80px;
+}
+
+li
+{
+   list-style: none;  /*You remove the bullets with list-style: none;*/
+   font-size: 20px;  /*so the menu items are spaced nicely.*/
+}
+
+/* .menu-container a flex container, 
+which lines up its children (the <li> items) in a row. */
+.menu-container
+{
+    display: flex;
+    gap:20px;
+}
+
+/* li:hover --> means when you put your mouse over a list item (<li>).
+               changes color and cursor on hover to show the item is clickable. */
+li:hover
+{
+    color:rgb(241, 17, 88);
+    cursor: pointer;
+}

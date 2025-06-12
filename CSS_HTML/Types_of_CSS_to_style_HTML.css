@@ -1,0 +1,116 @@
+
+/* h1{
+    color:blueviolet;
+} */
+
+
+/* . for class */
+.title1
+{
+    color:brown;
+    font-size: medium;
+    font-style: italic;
+}
+
+.title2
+{
+    color:aquamarine;
+}
+
+/* # for id */
+#contact
+{
+    color:blue
+}
+
+
+/* ********************************************************* */
+/* the CSS code (the rules themselves) is the same — things like: */
+
+h1 {
+  color: red;
+}
+/* — are identical no matter where you put them.
+
+What changes is how and where you write that CSS code in your HTML.
+That’s what makes it inline, internal, or external. */
+
+/* 1️. Inline CSS
+CSS code goes directly inside the HTML element tag using the style attribute.
+Example: */
+/* <h1 style="color: red;">Hello Inline CSS</h1>
+
+2️. Internal CSS
+CSS code goes inside a <style> tag within the <head> section of the HTML document.
+Example: */
+
+/* html
+<head>
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head> */
+
+/* 3️. External CSS
+ CSS code goes in a separate .css file. Then you link it using a <link> tag in the HTML <head>.
+style.css file: */
+h1 
+{
+  color: red;
+}
+/* index.html file:
+html
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+Conclusion:
+The actual CSS code is exactly the same.
+Only where you place it and how you connect it to your HTML changes! */
+
+
+/* *********************************************
+<!-- 1. Inline CSS
+Written inside the HTML tag using the style attribute.
+Applies only to that specific element.
+Highest priority.
+
+Example:
+
+<p style="color: red;">Naba</p>
+
+2. Internal CSS (or Embedded CSS)
+Written inside a <style> tag in the <head> section of the HTML.
+Applies to the entire HTML page.
+
+Example:
+
+<head>
+  <style>
+    p 
+    {
+      color: blue;
+    }
+  </style>
+</head>
+
+
+3. External CSS
+Written in a separate .css file.
+Linked to the HTML using the <link> tag in the <head>.
+Can be used to style multiple HTML pages.
+
+Example:
+style.css:
+p 
+{
+  color: green;
+}
+
+index.html:
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head> --> */

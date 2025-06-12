@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- bootrap cdn -->
+        <link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.min.css"/>
+      
+    </head>
+    <body>
+
+        <h1>Naba</h1>
+
+        <section class="row">
+            
+            <div class="box1  p-5 bg-info col-7">box1</div>
+            <div class="box2  p-5 bg-primary col-2">box2</div>
+            <div class="box3  p-5 bg-info col-2">box3</div>
+            <div class="box4  p-5 bg-danger col-2">box4</div>
+            <div class="box5  p-5 bg-info  col-2">box5</div>
+            <div class="box6  p-5 bg-danger  col-2">box6</div>
+
+        </section>
+        <br>
+        <section class="row d-flex justify-content-between">
+            
+            <div class="box1  p-5 bg-info col-10">box1</div>
+            <div class="box2  p-5 bg-primary col-2">box2</div>
+          
+        </section>
+
+    <!-- script file cdn -->
+        <script src="bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="bootstrap-5.3.6-dist/js/bootstrap.js"></script>
+    </body>
+</html>
+<!-- 
+------------------Bootstrap Grid Theory:
+
+Uses a 12-column layout.
+Columns inside a .row should ideally sum to 12.
+Extra columns wrap to a new line.
+Divides the page into 12 columns.
+
+Uses .container → .row → .col-* classes
+
+Use rows to group columns and align them properly.
+Use cols to control width (12 cols max per row). -
+->
+
+<!-- 
+Grid is great for overall page layout and responsive columns.
+but,
+d-flex activates flexbox, then you use these flex utilities (like justify-content-center, align-items-center, etc.) 
+to control layout and alignment easily.
+so,we can use grid for layout + d-flex for fine control inside grid  -->
+<!-- col-2:
+        means 2 columns out of 12 (about 16.66% width). -->
+<!-- Avoid mixing w-25 with col-2 because it can cause conflicting w and break the layout. Use one at a time. -->

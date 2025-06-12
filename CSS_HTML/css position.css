@@ -1,0 +1,97 @@
+/* Shared Class:
+.box-all is used to apply common styles to all boxes (like .box1, .box2, etc.) */
+
+.box-all
+{
+
+    width: 250px;
+    height: 250px;
+    margin: top 10px;
+}
+
+/* 
+   static (default)
+Follows normal flow
+top, left, right, bottom don’t work
+
+   relative
+Stays in normal flow
+Can move with top, left, etc.
+Other elements stay in place
+
+  absolute
+Removed from flow
+Positioned relative to nearest positioned ancestor
+If no ancestor, positions to the page itself
+
+   fixed
+Removed from flow
+Positions relative to the browser window
+Stays in place while scrolling */
+
+
+/* 
+**position: static** (default)
+
+*Elements are displayed normally, one after another in the document flow.
+*top, left, right, and bottom do not work with static.
+***Example:** */
+
+.box1 
+{
+    position: static;
+    background-color: purple;
+}
+
+/* **position: relative**
+
+*Element stays in the document flow, but you can move it with top, left, right, and bottom.
+*Other elements **don’t** move to fill its place.
+***Example:** */
+
+.box2
+{
+      position: relative;
+      top: 10px;  /* move down */
+      left: 20px; /* move right */
+      background-color: teal;
+}
+
+/* **position: absolute**
+
+* Element is removed from the document flow and positioned relative to its nearest positioned ancestor
+ (any parent with position: relative, absolute, fixed, or sticky).
+* If no parent is positioned, it will position itself relative to the entire page.
+***Example:**
+
+   */
+.red 
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color: rgb(255, 127, 127);
+ }
+ 
+
+/* **position: fixed**
+
+*Element is removed from the document flow and always stays in the same spot on the screen even when scrolling.
+*Positioned relative to the browser window.
+***Example:** */
+
+
+.box5 
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: green;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+.line-1
+{
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(92, 18, 18);
+}
+
+.line-2
+{  
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(226, 246, 11)
+}
+.line-3
+{
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(214, 48, 167);
+}
+
+.line-4
+{ 
+    width: 250px;
+    height: 250px;
+    border: 1px solid aqua
+}
+
+
+/* display: flex; — lets you arrange boxes side by side 
+justify-content works horizontally
+align-items works vertically
+*/
+
+.line-container 
+{
+   margin-top: 20px;
+   display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;   /*If the boxes don’t fit in one line, 
+                       they wrap to the next line instead of overflowing. pc,mobile*/
+   height: 100vh ;
+   border: 1px solid gold;
+   align-items: center;  /*align-items: center ensures the boxes sit nicely in the middle of the shelf vertically.*/
+}

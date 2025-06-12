@@ -1,0 +1,20 @@
+
+.description {
+    color: rgba(255, 0, 0, 1);    /* Red text, fully opaque (using rgba instead of rgb with 4 values) */
+    font-size: 50px;              /* Big text */
+    font-weight: bold;            /* Bold text */
+    /* font-style: italic; */     /* Italic is commented out */
+    text-align: center;           /* Center-align text */
+    width: 50%;                   /* 50% width of parent container */
+    margin: auto;                 /* Horizontally center */
+    
+    /* Google Font (Roboto) —  link is in HTML head */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;    /* Applies optical sizing if the font supports it */
+    font-style: normal;           /* Normal style (not italic) */
+
+    /* Recommended font-weight value (e.g. 400 for normal, 700 for bold) */
+    /* If using a variable font, use font-variation-settings if needed */
+    /* font-variation-settings: "wdth" 100; */
+}
+

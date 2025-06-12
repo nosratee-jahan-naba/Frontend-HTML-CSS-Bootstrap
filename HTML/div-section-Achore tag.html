@@ -1,0 +1,98 @@
+<!--
+- <section>: Used to group related content meaningfully.
+- <div>: Used as a container for styling/layout purposes.
+-->
+
+<!DOCTYPE html>
+<htlm>
+    <body>
+
+        <section>
+            <h1> topic 1 </h1>
+            <h1> topic 1 </h1>
+            <h1> topic 1 </h1>
+        </section>
+
+
+        <div>
+            <h1> topic 1 </h1>
+            <h1> topic 1 </h1>
+            <h1> topic 1 </h1>
+        </div>
+    </body>
+</htlm>
+
+
+<!--
+<section> 
+    - use for important sections of a webpage.
+    -  A big topic or theme.
+    Used for organizing content logically. 
+    Example: A news article section, a blog post section, or a tutorial section.
+    - Semantic Meaning: It indicates a distinct topic or theme.
+    - Better Accessibility: Helps screen readers understand content.
+    - SEO-Friendly: Search engines recognize it as structured content.
+
+    - Always include a heading (<h1>, <h2>, etc.).
+    - Use <section> when the content has a clear purpose.
+    - Avoid nesting sections too deeply.
+
+
+<div> 
+    - use when you just need a container for styling.
+    - A box to group stuff together
+    Used as a generic container for styling or grouping elements without specific meaning
+    Does not affect meaning—it's just for visual structur
+    - To apply CSS styling (background, borders, spacing, etc.).
+    - To wrap elements for layout control.
+    - To use with JavaScript for dynamic changes.
+
+    - Use <div> for styling & structure, not for content grouping.
+    - Add CSS classes to avoid repetitive inline styling.
+    - Combine <div> with flexbox or grid for better layouts
+
+
+
+-->
+
+
+<!-- Anchor Tag Example -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <a target="_blank" href="https://github.com/StriverV?tab=repositories">Github</a>
+        <br><a target="_blank" href="Simple HTML Document.html">Personal Info</a>          <!-- Same folder -->
+
+        <!-- "../" means one folder before -->
+        <br><a target="_blank" href="../Simple HTML Document.html">Personal Info</a> 
+        <br><a target="_blank" href="../../Simple HTML Document.html">Personal Info</a>
+    </body>
+</html>
+
+
+<!--
+<a target="_blank" href="https://github.com/StriverV?tab=repositories">Github</a>
+- <a>  
+    → Defines/Creates a hyperlink.
+- href="URL"  
+    → Specifies the web address/destination URL.
+- target="_blank"   
+    → Opens the link in a new tab.
+    - it opens in a new tab, ensuring users don't leave the current page.
+- Github   
+    → This is the clickable text, users see
+    - When clicked, it will navigate to GitHub repositories
+
+
+Clicking the link will open GitHub repositories in a new tab. 
+-->
+
+<!--
+Key Notes
+- target="_blank"    opens the link in a new tab.
+
+- Relative Paths:
+- "Simple HTML Document.html"       → File is in the same folder.,use only file name
+- "../Simple HTML Document.html"    → Go one folder back before accessing the file,use ../
+- "../../Simple HTML Document.html"   ->Go two folders back, before accessing the file ,use ../../
+-->

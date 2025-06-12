@@ -1,0 +1,80 @@
+/* CSS Selectors: Tag, Class, and ID
+CSS selectors are used to select the HTML elements you want to style. 
+
+1.Tag Selector
+*selects all HTML elements of a given type (like all <h1> or <p> tags).
+Syntax:
+
+  tagname 
+  {
+    property: value;
+  }
+
+Example: */
+
+h1
+{
+    color: red;
+    font-size: 24px;
+}
+  
+/* This styles all <h1> tags with red text and a font size of 24 pixels. */
+
+/* 2.Class Selector
+Selects all elements with a specific class attribute,
+ which allows you to style multiple elements together.
+
+Syntax: */
+
+/* .classname 
+{
+    property: value;
+}
+   */
+
+/* Example: */
+
+.highlight 
+{
+    color: blue;
+    font-weight: bold;
+}
+  
+/* This styles all elements with `class="highlight"`. */
+
+/* 3.ID Selector
+
+Selects one unique element  with a specific id attribute.
+An ID should be unique within a page.
+
+Syntax:
+#idname 
+{
+    property: value;
+} */
+  
+
+/* Example: */
+
+#idse
+{
+    background-color: yellow;
+}
+  
+
+/* this styles the element with id="main". */
+
+/* 
+##Summary
+
+| Selector  | Syntax          | Example              | Targets                  |
+| --------- | --------------- | -------------------- | ------------------------ |
+| **Tag**   |  tagname {}     |  h1 { color: red; }| All <h1> tags            |
+| **Class** |  .classname {}  |  .highlight { ... }  | Elements with that class |
+| **ID**    |  #idname {}     |  #main { ... }`      | The element with that ID | */
+
+
+/* 
+Tag selectors are broad and apply to **all** elements of that tag.
+Class selectors let you style **groups** of elements.
+ID selectors should be **unique** and are great for styling one specific element. */

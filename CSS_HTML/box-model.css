@@ -1,0 +1,28 @@
+.box
+{
+    Width: 400px;
+
+    border: 20px solid gold;
+    text-align: center;
+/* 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+    padding:50px ;     /*overall*/
+/* 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin: 50px;     /*overall*/
+
+   /* margin: 50px 30px;   -->  50px for up-down  &  30pcx for left-right*/
+}
+
+.h1set
+{
+    color:brown;
+    margin-top: 60px;
+    margin-left: 50px;
+}
